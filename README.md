@@ -1,0 +1,2 @@
+# Watson-Tone-Analyzer-With-QlikSense
+This Qlik Sense demo application is integrated with IBM Watson Tone Analyzer services to get the linguistic analysis to detect emotional and language tones. Qlik Sense app invokes the API call to Watson Tone analyzer services to retrieve the tone values at the document and sentence levels. Businesses can greatly benefit from this service by analyzing the customer's voice and take steps to improve the outcomes.
