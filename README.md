@@ -22,5 +22,7 @@ The second sheet shows the table with the conversation and a sentence level tone
 
 Configuration:
 1)	Input the API Key in Input_Param.txt file
-2)	To validate whether the key works or not, open the Qlik Sense App, enter some texts and click the ‘Analyze’ button in On-demand request Sheet.
-3)	If you need to analyze the more data, place the input data file and modify the load script to point to your file and field names to load.
+2)  Installed the two extensions if you don't have them. (AeS Reload button,  and Variable Extensions)
+3)  Create a new connection in Qlik Sense (File connection to point to the appropriate folder where you have the API key file and input data files)
+4)	To validate whether the key works or not, open the Qlik Sense App, enter some texts and click the ‘Analyze’ button in On-demand request Sheet. It should make a call to the Watson Tone analyzer services and return with some values.
+5)	If you need to analyze more data, place the input data file and execute it.
