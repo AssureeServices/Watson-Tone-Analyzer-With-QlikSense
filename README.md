@@ -11,7 +11,7 @@ To make this work in Qlik Sense:
 
 •	The request could be on-demand for a single paragraph with one or more sentences. Alternatively, a large volume of data can be processed by looping through the field and make multiple calls in Load Script.
 
-This demo app (ToneAnalyzr_with_QlikSense.QVF) has both approaches. Load Script has the code for the Full reload and Partial reloads. Full reload script will read data from the file (in this case EXCEL file) and loop through each row and makes a call to retrieve the result from tone analyzer API. The application has the Sheet with a text box and a button to demonstrate the On-Demand request. Users can enter the text and click the ‘Analyze’ button which retrieves the value from Watson Tone Analyzer service and trigger the Partial reload.
+This demo app (ToneAnalyzer_with_QlikSense.QVF) has both approaches. Load Script has the code for the Full reload and Partial reloads. Full reload script will read data from the file (in this case EXCEL file) and loop through each row and makes a call to retrieve the result from tone analyzer API. The application has the Sheet with a text box and a button to demonstrate the On-Demand request. Users can enter the text and click the ‘Analyze’ button which retrieves the value from Watson Tone Analyzer service and trigger the Partial reload.
 
 Tone analyzer result will be a document and sentence level along with a confidence score. Watson Tone Analyzer sends the result in a JSON format. Qlik table retrieves the necessary columns to be used from the JSON output to the table in the data model.
 
