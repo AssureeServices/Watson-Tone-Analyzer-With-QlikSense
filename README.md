@@ -3,7 +3,7 @@ This Qlik Sense demo application is integrated with IBM Watson Tone Analyzer ser
 
 To make this work in Qlik Sense: 
 
-•	First, need to create a Watson account and subscribe for the Watson tone analyzer service. There is a subscription fee for this service. However, free service has a limitation of 2500 calls per month. 
+•	First, need to create a Watson account and subscribe for the Watson tone analyzer service. There is a subscription fee for this service. However, free service has a limitation of 2500 calls per month. (Please check IBM Watson licensing site for latest promo)
 
 •	Get the tone analyzer API key, and this will be used in Qlik Sense to establish a call.
 
