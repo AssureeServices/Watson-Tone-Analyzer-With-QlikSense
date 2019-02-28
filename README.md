@@ -20,7 +20,7 @@ This demo application has three sheets.
 First sheet with emojis to represent the signs of various linguistics such as analytical, anger, confident, tentative, joy, fear and sadness, accompanied by other charts presenting the analysis of different dimensions.
 The second sheet shows the table with the conversation and a sentence level tones with a confidence score for each sentence. The third sheet allows users to enter some text and make on-demand calls directly from the sheet level.
 
-Configuration:
+Configuration: 
 1)	Input the API Key in Input_Param.txt file
 2)  Installed the two extensions if you don't have them. (AeS Reload button,  and Variable Extensions)
 3)  Create a new connection in Qlik Sense (File connection to point to the appropriate folder where you have the API key file and input data files)
