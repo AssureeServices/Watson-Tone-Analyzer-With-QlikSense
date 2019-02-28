@@ -29,6 +29,6 @@ Configuration:
 
 License 
 
-Copyright © 2019 Babu Durairaj 
+Copyright © 2019 Babu Durairaj , Assure eServices, Inc.
 
 Released under the MIT license.
